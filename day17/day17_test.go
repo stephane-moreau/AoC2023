@@ -382,5 +382,5 @@ func TestDay17Phase2(t *testing.T) {
 		`999999999991`,
 	}, 4, 10)
 	// 1010
-	// computeMinimal(largeInput, 4, 10)
+	computeMinimal(largeInput, 4, 10)
 }
