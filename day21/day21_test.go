@@ -408,7 +408,7 @@ func TestDay21Phase2(t *testing.T) {
 	if c != 95816 {
 		t.Fail()
 	}
-	fmt.Printf("Results for 2*131+85 : %d\n", c)
+	fmt.Printf("Results for 2*131+65 : %d\n", c)
 
 	c = guessPositions(4, center, other,
 		lArrow[131],
@@ -426,7 +426,7 @@ func TestDay21Phase2(t *testing.T) {
 	if c != 310036 {
 		t.Fail()
 	}
-	fmt.Printf("Results for 4*131+85 : %d\n", c)
+	fmt.Printf("Results for 4*131+65 : %d\n", c)
 
 	c = guessPositions(6, center, other,
 		lArrow[131],
@@ -444,7 +444,7 @@ func TestDay21Phase2(t *testing.T) {
 	if c != 646544 {
 		t.Fail()
 	}
-	fmt.Printf("Results for 6*131+85 : %d\n", c)
+	fmt.Printf("Results for 6*131+65 : %d\n", c)
 
 	c = guessPositions(iterations/131, center, other,
 		lArrow[131],
@@ -462,5 +462,5 @@ func TestDay21Phase2(t *testing.T) {
 	if c != 625587097150084 {
 		t.Fail()
 	}
-	fmt.Printf("Results for 6*131+85 : %d\n", c)
+	fmt.Printf("Results for %d*131+65 : %d\n", iterations/131, c)
 }
